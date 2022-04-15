@@ -1,0 +1,6 @@
+Primeiro exemplo é bem simples, onde é definido uma classe Person, é criado uma coleção de pessoas, busca-se a pessoa mais
+velha e imprime o resultado.
+A propriedade 'age' é null por default. A função maxByOrNull irá retornar a pessoa mais velha da lista ou retornará nulo,
+nesse caso retornou que Bob é o mais velho, uma vez que sua idade foi informada e de Alice não, comprovamos isso com o elvis
+operator (?:) que devolveu zero se 'age' for nulo. A expressão lambda utilizada aceita que nós passamos como informação um
+parâmetro e o Kotlin já gera o nome 'it' como default.
